@@ -42,7 +42,7 @@ section {
     display: grid;
     margin-bottom: 10px;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     grid-gap: 20px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -53,11 +53,19 @@ section {
 }
 
 .card2 {
-    grid-area: 2 / 3 / 4 / 5;
+    grid-area: 4 / 1 / 6 / 3;
 }
 
 .card3 {
     grid-area: 1 / 5 / 3 / 7;
+}
+
+.card4 {
+    grid-area: 4 / 5 / 6 / 7;
+}
+
+.card5 {
+    grid-area: 2 / 3 / 5 / 5;
 }
 
 
