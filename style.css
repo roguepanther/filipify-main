@@ -93,3 +93,8 @@ section {
 #devName {
     color: #33b1de
 }
+
+.carousel-container {
+    height: 700px;
+    width: 1200px;
+}
