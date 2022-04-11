@@ -9,6 +9,7 @@ html, body {
 section {
     height: 100vh;
     width: 100vw;
+    scroll-behavior: smooth;
 }
 .container-fluid-custom{
     height: 100vh;
@@ -16,6 +17,30 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.aboutMe {
+    background-color: #e7eaeb;
+    color: black;
+}
+
+.container-custom {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 20px;
+}
+
+.container-custom h1 {
+    font-size: 3rem;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.cards {
+    display: flex;
+    grid-gap: 20px;
 }
 
 .header h1 {
