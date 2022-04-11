@@ -3,13 +3,13 @@
 html, body {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
 
 section {
     height: 100vh;
     width: 100vw;
-    scroll-behavior: smooth;
 }
 .container-fluid-custom{
     height: 100vh;
@@ -34,13 +34,44 @@ section {
 
 .container-custom h1 {
     font-size: 3rem;
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: 4%;
+    padding-bottom: 6%;
 }
 
 .cards {
-    display: flex;
+    display: grid;
+    margin-bottom: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 20px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.card1 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.card2 {
+    grid-area: 2 / 3 / 4 / 5;
+}
+
+.card3 {
+    grid-area: 1 / 5 / 3 / 7;
+}
+
+
+
+.card {
+    transition: transform .2s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.card:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.1); 
+    z-index: 1;
 }
 
 .header h1 {
