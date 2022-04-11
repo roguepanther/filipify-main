@@ -9,3 +9,10 @@ html, body {
 section {
     height: 100vh;
 }
+
+.header {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 1%, rgba(217,217,32,1) 81%);
+    color: #fff;
+}
+
